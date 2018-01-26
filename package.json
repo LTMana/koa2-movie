@@ -1,0 +1,23 @@
+{
+  "name": "koa2-movie",
+  "version": "1.0.0",
+  "description": "koa2电影预告网站",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LTMana/koa2-movie.git"
+  },
+  "author": "LTMana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LTMana/koa2-movie/issues"
+  },
+  "homepage": "https://github.com/LTMana/koa2-movie#readme",
+  "dependencies": {
+    "co": "^4.6.0",
+    "node-fetch": "^1.7.3"
+  }
+}
