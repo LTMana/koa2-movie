@@ -2,8 +2,9 @@
   "name": "koa2-movie",
   "version": "1.0.0",
   "description": "koa2电影预告网站",
-  "main": "index.js",
+  "main": "server/index.js",
   "scripts": {
+    "start": "node server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,7 +18,9 @@
   },
   "homepage": "https://github.com/LTMana/koa2-movie#readme",
   "dependencies": {
-    "co": "^4.6.0",
-    "node-fetch": "^1.7.3"
+    "koa": "^2.4.1",
+    "koa-views": "^6.1.3",
+    "pug": "^2.0.0-rc.4",
+    "puppeteer": "^1.0.0"
   }
 }
