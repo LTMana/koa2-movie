@@ -10,8 +10,7 @@ const sleep = time => new Promise(resolve => {
   try {
     const browser = await puppeteer.launch({
       executablePath: '/Users/liubotong/chrom/Chromium.app/Contents/MacOS/Chromium',
-      args: ['--no-sandbox'],
-      dumpio: false
+      args: ['--no-sandbox']
     });
     const page = await browser.newPage();
     await page.goto(url, {
@@ -45,9 +44,9 @@ const sleep = time => new Promise(resolve => {
       return links
     })
     await browser.close();
-    console.log(result)
+    process.send({result})
+    process.exit(0)
   } catch (error) {
     console.log(error)
   }
-
 })();

@@ -18,9 +18,16 @@
   },
   "homepage": "https://github.com/LTMana/koa2-movie#readme",
   "dependencies": {
+    "bcrypt": "^1.0.3",
+    "glob": "^7.1.2",
     "koa": "^2.4.1",
     "koa-views": "^6.1.3",
+    "mongoose": "^5.0.4",
+    "nanoid": "^1.0.1",
     "pug": "^2.0.0-rc.4",
-    "puppeteer": "^1.0.0"
+    "puppeteer": "^1.0.0",
+    "qiniu": "^7.1.2",
+    "request": "^2.83.0",
+    "request-promise-native": "^1.0.5"
   }
 }
